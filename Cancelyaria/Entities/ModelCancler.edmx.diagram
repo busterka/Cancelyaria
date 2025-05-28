@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b19c07521da14be99062cbcc3aa7f35a" Name="Diagram1">
+        <EntityTypeShape EntityType="CancelyariaModel.Manufacturers" Width="1.5" PointX="0.75" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CancelyariaModel.Product" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="CancelyariaModel.ProductCategories" Width="1.5" PointX="0.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CancelyariaModel.Roles" Width="1.5" PointX="5.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CancelyariaModel.Suppliers" Width="1.5" PointX="0.75" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CancelyariaModel.Users" Width="1.5" PointX="8" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="CancelyariaModel.FK_Product_Manufacturers" ManuallyRouted="false" />
+        <AssociationConnector Association="CancelyariaModel.FK_Product_ProductCategories" ManuallyRouted="false" />
+        <AssociationConnector Association="CancelyariaModel.FK_Product_Suppliers" ManuallyRouted="false" />
+        <AssociationConnector Association="CancelyariaModel.FK__Users__RoleID__35BCFE0A" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
